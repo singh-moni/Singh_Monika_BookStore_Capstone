@@ -12,16 +12,16 @@ import DeleteBook from './pages/DeleteBook.jsx';
 
 const App = ()=> {
   return ( 
-    <>
-    <div classname='bg-red-400 text-white'>BookStore</div>  
-   <Routes>
-    <Route path='/' element={<Home/>} />
-    <Route path='/books/create' element={<CreateBooks/>} />
-    <Route path='/books/details/:id' element={<ShowBook/>} />
-    <Route path='./books/edit/:id' element={<EditBook/>} />
-    <Route path='/books/delete/:id' element={<DeleteBook/>} />
-   </Routes>
-   </> 
+    <div className="min-h-screen bg-gray-200">
+      <div className='bg-red-400 text-white p-4text-center font-bold flex items-center justify-center'><strong>BookStore</strong></div>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/books/create' element={<CreateBooks />} />
+        <Route path='/books/details/:id' element={<ShowBook />} />
+        <Route path='/books/edit/:id' element={<EditBook />} />
+        <Route path='/books/delete/:id' element={<DeleteBook />} />
+      </Routes>
+    </div>
   )
 }
 

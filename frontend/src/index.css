@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* body{
+  @apply bg-cover bg-center h-screen;
+  background-image: url('../public/books-on-orange-bg-backgrounds-for-powerpoint.jpg');
+} */
