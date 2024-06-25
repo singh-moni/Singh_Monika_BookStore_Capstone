@@ -46,7 +46,7 @@ Node.js (v16 or higher)
 npm (Node package manager, which comes with Node.js)
 Git (optional, if you're cloning from a repository)
 
-Frontend Setup Instructions:
+Frontend Setup Instructions
 Create React in Vite
 
 *In VSC terminal
