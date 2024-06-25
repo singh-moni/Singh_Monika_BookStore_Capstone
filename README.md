@@ -1,5 +1,5 @@
 ## Render link: https://singh-monika-bookstore-capstone-2.onrender.com/
-## Netlify link : rainbow-custard-971046.netlify.app
+## Netlify link : https://rainbow-custard-971046.netlify.app
 
 
 # BookStore Application
