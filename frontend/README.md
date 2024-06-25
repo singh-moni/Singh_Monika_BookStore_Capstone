@@ -1,3 +1,6 @@
+## Render link: https://singh-monika-bookstore-capstone-2.onrender.com/
+## Netlify link : https://venerable-kitsune-606775.netlify.app
+
 
 # BookStore Application
 
@@ -15,21 +18,21 @@ BookStore is a web application that allows users to create, read, update, and de
 Prerequisites for Backend Setup
 To set up and run the backend of your BookStore application, you need to ensure the following prerequisites are met:
 
-Software Requirements
+# Software Requirements
 Node.js (v16 or higher): Node.js is the runtime environment for running JavaScript on the server-side.
 npm (Node Package Manager): npm is included with Node.js and is used to manage the project's dependencies.
 MongoDB: MongoDB is a NoSQL database used to store the book data.
 Git (optional, for cloning the repository): Git is used for version control and cloning the repository from a remote source.
 
-Installation Instructions:
+# Installation Instructions:
 in Git Bash
 mkdir repo_name (creates a local repository)
 cd repo_name
 
-
+# backend
+Here are the detailed steps to set up the backend of your BookStore application:
 *In VSC terminal
-
-backend init
+ backend init
 Enter name of project-backend
 Enter Port
 Enter Mongo uri 
@@ -38,13 +41,17 @@ Run npm i
 Change mongo uri to your uri in .env file
 Run:  npm run dev
 
-Here are the detailed steps to set up the frontend of your BookStore application:
+## Frontend Setup 
+
 Prerequisites:
 Ensure you have the following installed on your system:
 
 Node.js (v16 or higher)
 npm (Node package manager, which comes with Node.js)
 Git (optional, if you're cloning from a repository)
+
+
+# Here are the detailed steps to set up the frontend of your BookStore application:
 
 Frontend Setup Instructions
 Create React in Vite
@@ -60,14 +67,14 @@ Create React in Vite
 -ctrl & click into local host
 
 
-Usage Instructions:
+# Usage Instructions:
 
 Ensure the backend server is running on the default port 5555.
 Open another terminal and ensure the frontend development server is running.
 Open your browser and navigate to http://localhost:5173 to view the application.
 
 
-API Endpoints:
+# API Endpoints:
 Books
 GET /books - Retrieve all books
 GET /books/:id - Retrieve a single book by ID
@@ -75,7 +82,7 @@ POST /books - Create a new book
 PUT /books/:id - Update a book by ID
 DELETE /books/:id - Delete a book by ID
 
-Contributing
+# Contributing
 Fork the repository
 Create your feature branch (git checkout -b feature/AmazingFeature)
 Commit your changes (git commit -m 'Add some AmazingFeature')
